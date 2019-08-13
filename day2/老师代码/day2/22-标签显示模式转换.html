@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>标签显示模式转换</title>
+    <style>
+        .mydiv{
+            /* 块级标签转行内标签 */
+            display: inline;
+            /* width: 200px;
+            height: 100px; */
+            /* 设置背景颜色 */
+            background-color: #ccc;
+        }
+        span{
+            display: block;
+        }
+        p{
+            /* 转换成行内块级标签 */
+            display: inline-block;
+            width: 400px;
+            height: 100px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1.块级标签转行内标签 -->
+    <div class="mydiv">我是div</div>
+    <!-- 2.行内标签转块级标签 -->
+    <span>我是span</span>
+    <!-- 3.转换成行内块级标签 -->
+    <p>我是p</p>
+</body>
+</html>

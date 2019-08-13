@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .divbig{
+            width: 440px;
+            height: 440px;
+            box-sizing: border-box;
+            border: 40px solid #48495D;
+            position: relative;
+        }
+        .div1{
+            width: 350px;
+            height: 350px;
+            box-sizing: border-box;
+            margin: 5px;
+            border: 30px solid #98A469;
+            transition: all 0.6s;
+        }
+        .div2{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 10px solid white;
+            transition: all 0.6s;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            transition: all 0.6s;
+            transform: scale(1.2);
+        }
+        .div1:hover .div2{
+            border: 0;
+        }
+        .div1:hover img{
+            transform: scale(1);
+        }
+        .div1:hover{
+            height: 360px;
+            width: 360px;
+            border: 10px solid #98A469;
+            margin: 0;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="divbig">
+        <div class="div1">
+            <div class="div2">
+                <img src="../day6/nba/warrior.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

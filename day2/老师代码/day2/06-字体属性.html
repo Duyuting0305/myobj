@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>字体属性</title>
+    <style>
+        div{
+            /* 浏览器默认的字体大小：16px */
+            /* 1.设置字体大小 */
+            font-size: 20px;
+            /* 2.字体加粗： bold、bolder、lighter、100-900*/
+            font-weight: lighter;
+            /* 3. 设置字体风格：oblique、italic*/
+            font-style: italic;
+            /* 4.设置字体 如果字体名中包含空格、#、$等符号，则该字体必须加英文状态下的单引号或双引号*/
+            font-family: 'Times New Roman','Microsoft YaHei','\5B8B\4F53';
+            /* 设置行高 */
+            line-height: 100px;
+        }
+        i{
+            font-style: normal;
+        }
+        span{
+            /* font：font-style font-weight font-size/line-height font-family*/
+            font: italic 500 30px/100px 'Microsoft YaHei'，'\5B8B\4F53';
+        }
+    </style>
+</head>
+<body>
+    <div>我是div</div>
+
+    <i>我是i</i>
+
+    <span>我是span</span>
+</body>
+</html>

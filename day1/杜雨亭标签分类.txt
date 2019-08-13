@@ -1,0 +1,6 @@
+独占一行的标签（块级标签）：h1~h6；p；hr；br；div；ul；li；ol；dl；table；tr
+
+不独占一行的标签（行内标签）（不能设置宽高）：span；b；strong；i；em；s；del；u；ins；a；td
+
+行内块级标签：img
+

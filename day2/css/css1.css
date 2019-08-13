@@ -1,0 +1,12 @@
+.myclass{
+    color: red;
+    font-weight: bold
+}
+div{
+    word-spacing: 25px;
+    text-align: center
+}
+a{
+    text-decoration: none;
+    color: black;
+}

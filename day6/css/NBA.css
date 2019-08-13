@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#E7E7E7;
+}
+.header{
+    height: 120px;
+    background-color: #015FC1;
+    position: relative;
+}
+.header .headertop-img img:first-child{
+    width: 250px;
+    height: 71px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.header .headertop-img img:last-child{
+    width: 60.7px;
+    height: 25px;
+    position: absolute;
+    left: 308px;
+    top: 37px;
+}
+.header .headertop{
+    margin: 0 71px;
+    position: relative;
+}
+.header .headertop-logo{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.header .headertop-logo div{
+    display: inline-block;
+    color: #F9FCFD;
+    box-sizing: border-box;
+    margin: 0;
+    height: 19px;
+}
+.header .headertop-logo .logo{
+   margin:0 3px;
+}
+.header .headertop-logo img{
+    vertical-align: middle;
+}
+.header .headertop-logo span{
+    font-size: 14px;
+}
+
+
+.header .headeritem{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+.header .headeritem1{
+    display: flex;
+    width: 960px;
+    margin-left: 110px;
+    justify-content: space-between;
+}
+.header .headeritem1 div{
+    color: white;
+}
+.header .headeritem1 div:first-child{
+    color: #0095FA;
+}
+.header .headeritem2{
+    margin-right: 71px;
+    text-align: center;
+}
+.header .headeritem2 img:first-child{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+.header .headeritem2 img:last-child{
+    width: 30px;
+    height: 30px;
+}
+
+.middle{
+    background-color: #FFFFFF;
+    margin: 0 71px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+/* .middle .middleleft .aa{
+  
+} */
+.middle .middleleft li{
+    float: left;
+    list-style: none;
+    box-sizing: border-box;
+   
+}
+.middle .middleleft img{
+    width: 510px;
+    height: 382px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.middleleft ul{
+    width: 1630px;
+    height: 382px;
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: mymove 10s infinite;
+    /* margin-left: 10px; */
+}
+.middleleft{
+    width: 510px;
+    overflow: hidden;
+    height: 382px;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 10px;
+
+}
+@keyframes mymove{
+    0%,30%{
+        left: 0;
+    }
+    35%,65%{
+        left: -510px;
+    }
+    70%,100%{
+        left: -1020px;
+    }
+}
+
+.middle .middlemiddle div{
+    display: flex;
+    width: 360px;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 10px 0;
+
+}
+.middle .middlemiddle .middle1{
+    padding-top: 0;
+   
+}
+.middle .middlemiddle img{
+    width: 92px;
+    height: 67px;
+    margin-right: 10px;
+}
+.middle .middlemiddle{
+    margin: 20px 10px;
+}
+.middle .middlemiddle p{
+    font-size: 14px;
+    padding-top: 12px;
+    
+}
+.middle .middleright .title{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 20px 10px;
+    margin-bottom: 0;
+
+}
+.middle .middleright .title img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.middle .middleright .title {
+    background-image: url(../nba/换一换背景.png);
+    width: 300px;
+    height: 40px;
+}
+.middle .middleright .title .yaowen{
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 30px;
+    
+}
+.middle .middleright .title .huan{
+   color: white;
+   font-size: 14px;
+   line-height: 40px;
+   padding-right: 20px;
+}
+.middle .middleright p{
+    font-size: 14px;
+    background-color: #FAFAFA;
+    color: #14171A;
+    padding: 5px 18px;
+}
+
+.nav{
+    height: 40px;
+    margin: 0 71px;
+    background-color: white;
+    display: flex;
+}
+.nav-left{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.nav-left div:first-child{
+    font-size: 20px;
+    color: #2464B5;  
+    border-bottom: 2px solid #E11647;
+}
+.nav .icon-4{
+    font-size: 30px;
+}
+.nav-left div:last-child{
+    font-size: 16px;
+    color: #2464B5;
+    line-height: 40px;
+}
+.nav-right{
+    /* width: 300px; */
+    height: 40px;
+    display: flex;
+
+}
+.nav-right div{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+}
+.nav-right div:first-child{
+    margin-left: 10px;
+    background-color: #2464B5;
+    font-size: 14px;
+    color: white;
+}
+.nav-right div:last-child{
+    font-size: 14px;
+    background-color: #E5E5E5;
+
+}
+.item{
+    margin: 0 71px;
+    widows: 100%;
+    background-color: white;
+}
+.item .item-left{
+    width: 880px;
+    height: 20px;
+   
+    position: relative;
+   
+}
+.item-left .huan{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #2464B5;
+}
+.item .huan img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.item-pic1{
+    display: flex;
+}
+.item-pic1>div:first-child{
+    background-image: url("../nba/pic1.jpg");
+    width: 440px;
+    height: 314px;
+    background-repeat: no-repeat;
+    margin: 10px 10px;
+    position: relative;
+}
+.item-pic1 .pic-word{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+
+}
+.item-pic1>div:last-child{
+    background-image: url("../nba/pic2.jpg");
+    width: 440px;
+    height: 314px;
+    background-repeat: no-repeat;
+    margin: 10px 0;
+    position: relative;
+}

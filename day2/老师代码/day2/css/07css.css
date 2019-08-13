@@ -1,0 +1,44 @@
+div{
+    /* 1.设置字体颜色 */
+    /* color: blue; */
+    /* 十六进制 */
+    color: #3388FF;
+    /* rgb(0-255, 0-255, 0-255) */
+    /* color: rgb(51,136,255); */
+    /* rgba(red, green, blue, 0-1) */
+    /* color: rgba(51,136,255, 0.1); */
+    /* 2.设置字体居中 */
+    /* text-align: center; */
+    /* 3.文本修饰 none：默认值 */
+    /* text-decoration: line-through; */
+    /* 4.文本转换 */
+    text-transform: lowercase;
+    /* 6.文本阴影text-shadow: 水平方向阴影位置 垂直方向阴影位置 模糊距离 阴影颜色； */
+    text-shadow: -2px 2px 2px red;
+    font-size: 30px;
+    /* 7.文本方向 */
+    direction: rtl;
+    /* 8.设置字符间距 */
+    letter-spacing: 20px;
+    
+}
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    /* 5.文本缩进 */
+    /* text-indent: 32px; */
+    /* 默认的1em = 16px */
+    font-size: 30px;
+    /* 1em = 30px */
+    text-indent: 2em;
+}
+a{
+    text-decoration: none;
+}
+del{
+    text-decoration: none;
+}
+li{
+    /* 9.字间距 */
+    word-spacing: 30px;
+}

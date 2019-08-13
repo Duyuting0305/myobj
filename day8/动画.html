@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            animation: mymove 1s linear 2s infinite alternate;
+            background:linear-gradient(to right,red,blue);
+            position: absolute;
+        }
+        @keyframes mymove {
+            0%{
+                left: 0;
+            }
+            100%{
+                left: 100px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
